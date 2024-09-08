@@ -1,5 +1,5 @@
-const api = "1651bdd0b0ddb8114dda13b95055cf3f";
-const apiurl="https://api.openweathermap.org/data/2.5/weather?units=metric&appid=1651bdd0b0ddb8114dda13b95055cf3f&q=";
+const api = "OPENWEATHER API";
+const apiurl="https://api.openweathermap.org/data/2.5/weather?units=metric&appid={OPENWEATHER API}&q=";
 
 document.getElementById("button").addEventListener("click",function(){
     weather(document.getElementById("input").value);
